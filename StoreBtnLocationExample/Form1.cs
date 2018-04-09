@@ -16,5 +16,16 @@ namespace StoreBtnLocationExample
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            textBox1.Text = Properties.Settings.Default.Password;
+        }
     }
 }
