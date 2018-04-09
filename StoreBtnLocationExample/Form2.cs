@@ -32,6 +32,7 @@ namespace StoreBtnLocationExample
 
             Properties.Settings.Default.Password = textBox1.Text;
             Properties.Settings.Default.Save();
+            Close();
         }
     }
 }
